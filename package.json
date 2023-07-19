@@ -1,7 +1,7 @@
 {
   "name": "vite-project",
   "private": true,
-  "homepage":"https://github.com/ahmed-M32/project_s",
+  "homepage":"https://github.com/ahmed-M32/react-onepiece",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
