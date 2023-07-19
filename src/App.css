@@ -1,0 +1,23 @@
+.app{
+    width :100%;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: black;
+}
+.fadein {
+    opacity: 0;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+}
+
+body.fadein.loaded  {
+    opacity: 1;
+}
+body{
+    height: 758px;
+    
+}

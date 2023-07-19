@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+.hero {
+	display: flex;
+	background-color: rgb(30, 0, 0);	
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	box-sizing: content-box;
+}
+
+@keyframes luf {
+	0% {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0%);
+		opacity: 1;
+	}
+}
+.lu {
+	animation: luf 300ms ease-out 800ms;
+	animation-fill-mode: forwards;
+	opacity: 0;
+	height: 85%;
+	right: 10%;
+	display: block;
+	max-width: 100%;
+	position: absolute;
+	z-index: 0;
+	bottom: 0%;
+}
+@keyframes art {
+	0% {
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(20px);
+		opacity: 1;
+	}
+}
+.desc {
+	color: white;
+	padding-left: 30px;
+	position: absolute;
+	padding-top: 100px;
+	bottom: 40%;
+	right: 50%;
+	height: fit-content;
+	animation: art 300ms ease-in 800ms;
+	animation-fill-mode: forwards;
+	transform: translateY(-20px);
+	opacity: 0;
+}
+.title {
+	font-family: "Abril Fatface", cursive;
+	font-size: 60px;
+}
+.des {
+	padding-left: 30px;
+}
+.numbers {
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+}
+p {
+	padding-left: 30px;
+}
+.ep-num {
+	color: white;
+	font-size: 30 px;
+	padding-top: 25px;
+	height: 100%;
+}
+.no {
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	width: 10%;
+}
+.ss {
+	display: inline-flexbox;
+}
+.plus {
+	font-size: 40px;
+	height: 60%;
+	display: inline-block;
+	color: red;
+}
+.red {
+	width: 40%;
+	background-image: linear-gradient(red, rgb(30, 0, 0));
+	height: 50%;
+	border-radius: 999px;
+	display: flex;
+	align-items: center;
+}
