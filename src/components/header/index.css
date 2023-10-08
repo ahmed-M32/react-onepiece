@@ -20,16 +20,25 @@ body {
 .root {
 	height: 100%;
 }
-.nab {
-	position: fixed;
+.nb{
 	width: 100%;
-	align-items: center;
+	position: fixed;
 	height: 10%;
-	z-index: 3;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	background-color: rgb(196 11 28);
+	z-index: 999;
+}
+.nab {
+	
+	width: 100%;
+	align-items: center;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: rgb(196, 11, 28);
 	animation: nav-load 300ms ease-in;
 }
 .nav-left {

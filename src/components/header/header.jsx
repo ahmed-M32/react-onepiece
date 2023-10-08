@@ -5,6 +5,8 @@ import "./index.css";
 
 export function Onepiece(props) {
 	return (
+		<div className="nb">
+			
 		<nav className="nab">
 			<nav className="nav-left">
 				<Link to="/">
@@ -17,6 +19,7 @@ export function Onepiece(props) {
 				<div className="episode">
 					<Link to="/epi" className="l">
 						{" "}
+			
 						Episode list
 					</Link>
 				</div>
@@ -28,5 +31,6 @@ export function Onepiece(props) {
 				</div>
 			</nav>
 		</nav>
+		</div>
 	);
 }

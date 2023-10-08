@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 .hero {
 	display: flex;
-	background-color: rgb(30, 0, 0);	
+	background-color: rgb(0, 0, 0);	
 	height: 100%;
 	width: 100%;
 	align-items: center;
 	box-sizing: content-box;
+	position: relative;
 }
 
 @keyframes luf {
@@ -24,6 +25,7 @@
 	opacity: 0;
 	height: 85%;
 	right: 10%;
+	position: absolute;
 	display: block;
 	max-width: 100%;
 	position: absolute;
@@ -45,20 +47,26 @@
 	padding-left: 30px;
 	position: absolute;
 	padding-top: 100px;
+	width: 50%;
 	bottom: 40%;
 	right: 50%;
-	height: fit-content;
+	
 	animation: art 300ms ease-in 800ms;
 	animation-fill-mode: forwards;
 	transform: translateY(-20px);
 	opacity: 0;
+
 }
 .title {
 	font-family: "Abril Fatface", cursive;
 	font-size: 60px;
+	width: 90%;
+	
 }
 .des {
 	padding-left: 30px;
+	width: 100%;
+	
 }
 .numbers {
 	height: 50%;

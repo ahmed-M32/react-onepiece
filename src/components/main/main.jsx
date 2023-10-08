@@ -8,6 +8,7 @@ function Hero() {
 	return (
 		<div className="hero">
 			<img
+			    alt=""
 				className="lu"
 				src="de5417b-844030f7-a1b3-495d-819e-23bb938eb2a7.png"></img>
 			<div className="red"></div>
