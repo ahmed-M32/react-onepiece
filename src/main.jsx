@@ -18,7 +18,7 @@ getdata()*/
 
 function Appp() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Routes>
 				<Route path="/" element={<App></App>}></Route>
 				<Route path="/epi" element={<Epi></Epi>}></Route>
