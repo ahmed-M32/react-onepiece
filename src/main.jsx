@@ -13,7 +13,7 @@ function Appp() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/"  element={<App></App>}></Route>
+				<Route path="/react-onepiece"  element={<App></App>}></Route>
 				<Route path="/epi" element={<Epi></Epi>}></Route>
 				<Route path="/char" element={<Char></Char>}></Route>
 			</Routes>
